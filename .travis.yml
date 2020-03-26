@@ -3,4 +3,7 @@ language: generic
 script:
   - echo  "Script running"
 deploy:
-  - echo  "Deploy running"
+  provider: script
+  script: bash deploy.sh
+  on:
+    condition: branch = master AND tag IS present
