@@ -1,9 +1,0 @@
-language: generic
-
-script:
-  - echo  "Script running"
-deploy:
-  provider: script
-  script: bash deploy.sh
-  on:
-    tags: true
