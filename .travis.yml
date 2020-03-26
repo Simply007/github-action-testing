@@ -1,0 +1,6 @@
+script:
+- echo  "Script running"
+deploy:
+  - echo  "Deploy running"
+  on:
+    condition: branch = master AND tag IS present
