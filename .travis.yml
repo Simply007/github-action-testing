@@ -6,4 +6,5 @@ deploy:
   provider: script
   script: bash deploy.sh
   on:
-    condition: ((branch = master) AND (tag IS present))
+    branch: master
+    condition: tag IS present
