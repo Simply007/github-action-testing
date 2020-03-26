@@ -1,2 +1,4 @@
 language: generic
 
+script:
+  - echo  "Script running"
