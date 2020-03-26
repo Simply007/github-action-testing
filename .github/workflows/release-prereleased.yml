@@ -17,7 +17,7 @@ jobs:
       run: echo Release pre-released!
 
   release:
-    if: "github.event.release.prerelease"
+    if: "!github.event.release.prerelease"
     name: "Released"
     runs-on: ubuntu-latest
     steps:
