@@ -1,4 +1,5 @@
-language: minimal
+language: generic
+
 script:
 - echo  "Script running"
 deploy:
