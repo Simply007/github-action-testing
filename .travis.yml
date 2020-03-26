@@ -2,3 +2,5 @@ language: generic
 
 script:
   - echo  "Script running"
+deploy:
+  - echo  "Deploy running"
