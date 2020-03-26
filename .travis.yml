@@ -1,8 +1,8 @@
 language: generic
 
 script:
-  echo  "Script running"
+  - echo  "Script running"
 deploy:
-  echo  "Deploy running"
+  - echo  "Deploy running"
   on:
     condition: branch = master AND tag IS present
